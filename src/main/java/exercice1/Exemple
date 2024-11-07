@@ -1,0 +1,10 @@
+public class MaClasse {
+    @Override
+    protected void finalize() throws Throwable {
+        try {
+            // Libération des ressources
+        } finally {
+            super.finalize();
+        }
+    }
+}

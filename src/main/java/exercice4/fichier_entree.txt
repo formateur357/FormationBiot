@@ -1,0 +1,5 @@
+Bonjour tout le monde.
+Bienvenue dans cet exercice Java.
+Amusez-vous bien avec Java !
+Apprendre Java est amusant.
+Bonne chance !
