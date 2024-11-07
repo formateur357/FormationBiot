@@ -56,7 +56,7 @@ public class GestionFichiersFiltre {
 
 			} catch (FileNotFoundException e) {
 			    // Gérer le cas où le fichier d'entrée n'existe pas
-			    System.err.println("Erreur : Le fichier d'entrée " + fichierEntree + " n'existe pas.");
+			    System.err.println("Erreur : Le fichier d'entrée " + fichierEntree + " " + e.getMessage() +" n'existe pas.");
 			} catch (IOException e) {
 			    // Gérer les erreurs de lecture/écriture
 			    System.err.println("Erreur lors de la lecture ou de l'écriture : " + e.getMessage());
